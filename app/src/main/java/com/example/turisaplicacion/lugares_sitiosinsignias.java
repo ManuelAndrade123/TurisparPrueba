@@ -99,6 +99,13 @@ public class lugares_sitiosinsignias extends Fragment {
                 Navigation.findNavController(v).navigate(R.id.glorieta_acordeon);
             }
         });
+        ImageView imagen6_glorietas=view.findViewById(R.id.img_glorieta5);
+        imagen6_glorietas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.poporos);
+            }
+        });
 
         ImageView imagen5_glorietas=view.findViewById(R.id.img_glorieta6);
         imagen5_glorietas.setOnClickListener(new View.OnClickListener() {

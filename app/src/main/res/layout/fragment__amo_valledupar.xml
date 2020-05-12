@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo"
+    android:background="@mipmap/fondo"
     android:gravity="center"
 
 
@@ -12,8 +12,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="380dp"
-        android:layout_height="243dp"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -22,7 +22,7 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="87dp"
         android:layout_marginBottom="402dp"
-        android:src="@mipmap/monumentos_amovalledupar" />
+        android:src="@mipmap/image_amovalle" />
 
     <TextView
         android:id="@+id/textView2"
@@ -58,16 +58,16 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginLeft="27dp"
-        android:layout_marginTop="331dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginRight="21dp"
-        android:layout_marginBottom="43dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="34dp"
         android:text="@string/info_amovalle"
         android:textColor="@color/Colorfondo"
         android:textColorHighlight="@color/Colorfondo"
         android:textColorLink="@color/Colorfondo"
         android:textSize="24sp"
-        app:fontFamily="@font/armata" />
+        app:fontFamily="sans-serif" />
 </RelativeLayout>

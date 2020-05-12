@@ -25,8 +25,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="1460" />
-                            <option name="y" value="1162" />
+                            <option name="x" value="1482" />
+                            <option name="y" value="1154" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -310,6 +310,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_lugares_sitiosinsignias_to_sitiosinsignia">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                           </map>
                         </option>
                       </LayoutPositions>
@@ -406,6 +411,15 @@
                             <option name="x" value="-951" />
                             <option name="y" value="606" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_sitiosinsignia_to_lugares_sitiosinsignias">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>

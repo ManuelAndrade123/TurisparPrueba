@@ -6,30 +6,52 @@
     tools:context=".catedral"
     android:background="@mipmap/fondo">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="335dp"
-        android:layout_height="80dp"
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="37dp"
-        android:layout_marginRight="37dp"
-        android:layout_marginBottom="575dp"
-        android:text="@string/texto_catedral" />
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="664dp"
+        android:gravity="center"
+        android:text="CATEDRAL DEL ROSARIO"
+        android:textColor="@color/Colorfondo"
+        android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="367dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="203dp"
-        android:layout_marginRight="203dp"
-        android:layout_marginBottom="401dp"
-        android:text="@string/informacion_catedral" />
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="500dp"
+        android:src="@mipmap/imagen_catedral" />
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="363dp"
+        android:layout_height="455dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="30dp"
+        android:text="Es una de las iglesias más antiguas de la ciudad de Valledupar y data del año 1.563 preservada con el incansable apoyo de dos misioneros. Tiene representaciones en las cuales se muestra la conversión indígena al cristianismo después de una aparición de la virgen del Rosario. Aunque fue destruida en los años 60s y reconstruida, aún se conserva la torre original. La congregación de la Virgen del Rosario está conformada y regida por unos estatutos debidamente reconocidos por la autoridad eclesiástica competente, las ideas arquitectónicas traídas por los españoles son preservadas como testimonio histórico-religioso."
+        android:textColor="@color/Colorfondo"
+        android:textSize="20sp" />
 </RelativeLayout>

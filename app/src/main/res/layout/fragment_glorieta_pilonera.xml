@@ -1,15 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".glorieta_pilonera"
-    android:background="@mipmap/fondo">
+    android:background="@mipmap/fondo"
+    android:gravity="center"
+    tools:context=".glorieta_pilonera">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="377dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        android:text="Sede del monumento La Pilonera Mayor del escultor Amilkar Ariza en homenaje a la fundadora del Festival Vallenato, Consuelo Araujo Noguera, “La Cacica.” Si se colocan en las faldas del imponente monumento dicen que se puede escuchar su voz cantando su hermosa frase y estribillo del baile que abre el Festival Vallena a los que vienen de afuera o a los dueños de la casa”.  Espacio público."
+        android:textColor="@color/Colorfondo"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="288dp"
+        android:layout_height="249dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="404dp"
+        android:src="@mipmap/glorietas_2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="651dp"
+        android:gravity="center"
+        android:text="GLORIETA DE LA PILONERA MAYOR"
+        android:textColor="@color/Colorfondo"
+        android:textColorHighlight="@color/Colorfondo"
+        android:textSize="20sp" />
+
+</RelativeLayout>

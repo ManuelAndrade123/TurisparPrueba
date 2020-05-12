@@ -137,6 +137,9 @@
         <action
             android:id="@+id/action_lugares_sitiosinsignias_to_sitiosinsignia"
             app:destination="@id/sitiosinsignia" />
+        <action
+            android:id="@+id/action_lugares_sitiosinsignias_to_poporos"
+            app:destination="@id/poporos" />
     </fragment>
     <fragment
         android:id="@+id/glorieta_musicos"

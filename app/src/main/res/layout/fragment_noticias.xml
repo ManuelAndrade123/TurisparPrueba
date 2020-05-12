@@ -5,10 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Noticias"
-    android:background="@drawable/fondo">
+    android:background="@mipmap/fondo">
 
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,5 +75,6 @@
         android:textColorHighlight="@color/Colorfondo"
         android:textColorLink="@color/Colorfondo"
         app:fontFamily="sans-serif-medium" />
+
 
 </RelativeLayout>

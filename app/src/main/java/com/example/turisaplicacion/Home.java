@@ -24,14 +24,15 @@ public class Home extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     public TextView textonoticias;
-    public ImageView imagen1;
+    public ImageView imagen1,imagen2,imagen3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         textonoticias = (TextView) findViewById(R.id.text_home);
-        imagen1=(ImageView)findViewById(R.id.imagen_amovalledupar);
+        imagen1=(ImageView)findViewById(R.id.imageView);
+
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);

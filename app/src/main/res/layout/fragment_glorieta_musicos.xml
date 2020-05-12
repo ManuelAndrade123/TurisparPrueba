@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,8 +9,64 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="656dp"
+        android:gravity="center"
+        android:text="GLORIETA DE LOS JUGLARES"
+        android:textColor="@color/Colorfondo"
+        android:textColorHighlight="@color/Colorfondo"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="334dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="368dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="29dp"
+        android:text="Es un nuevo sitio turístico de Valledupar, un lugar contiguo al parque El Helado, que cuenta con obras de jardinería, cuatro monedas con los Juglares: Lorenzo Morales, Emiliano Zuleta, Leandro Díaz y Rafael Escalona; un acordeón con los grandes exponentes de la música vallenata: Jorge Oñate, Diomedes Díaz y Tomás Alfonso ‘Poncho’ Zuleta y dos estatuas en tamaño real de Diomedes y Martin Elías Díaz, es el monumento más visitado de Colombia."
+        android:textColor="@color/Colorfondo"
+        android:textColorHighlight="@color/Colorfondo"
+        android:textColorHint="@color/Colorfondo"
+        android:textColorLink="@color/Colorfondo"
+        android:textSize="20sp" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="283dp"
+        android:layout_height="303dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="360dp"
+        android:src="@mipmap/glorietas_3" />
+
+</RelativeLayout>
