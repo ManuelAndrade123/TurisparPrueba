@@ -1,6 +1,6 @@
 # TurisparPrueba
 
-Video de utilizacion del aplicativo y su APK
+URL: de Video de utilizacion del aplicativo y su APK
 https://drive.google.com/drive/u/0/folders/1VGBH0SleQcshAsrckpA_q_witsv7k0GH
 
 
