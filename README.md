@@ -17,3 +17,5 @@ Una vez descargada o agregada la apk al dispositivo, nos dirigiremos a la carpet
 
 Imagen para instalacion:
 URL: https://elandroidelibre.elespanol.com/wp-content/uploads/2016/03/apk.jpg
+Licencia:
+La licencia que se maneja es apache 2.0
