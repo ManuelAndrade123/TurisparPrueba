@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e1f276-c985-41ad-bc5e-d6ea9c6599d6" name="Default Changelist" comment="" />
+    <list default="true" id="4e00af1a-d416-44d9-9f3d-fbe05eb239c2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="127.0.0.1:62001" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -25,51 +16,14 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="resourceFile" />
-        <option value="layoutResourceFile" />
-      </list>
-    </option>
-  </component>
-  <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="D:\Desktop\Certificado APK" />
-    <option name="KEY_ALIAS" value="manuel123" />
-    <option name="REMEMBER_PASSWORDS" value="true" />
-    <option name="BUILD_TARGET_KEY" value="apk" />
-  </component>
-  <component name="ProjectId" id="1bSH8V14cyjoqnPXXBlGbCJwZ2i" />
+  <component name="ProjectId" id="1cixUh9oSVSauN3OeP8yFEnZYDI" />
   <component name="PropertiesComponent">
-    <property name="ApkExportedModule" value="app" />
-    <property name="BundleExportedModule" value="app" />
-    <property name="ExportApk.ApkPath" value="D:\Desktop" />
-    <property name="ExportApk.BuildVariants" value="release" />
-    <property name="ExportApk.SignV1" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-  </component>
-  <component name="RecentsManager">
-    <key name="android.template.packageName">
-      <recent name="com.example.turisaplicacion" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Desktop\TurisApp\app\src\main\res\mipmap-xxhdpi" />
-      <recent name="D:\Desktop\TurisApp\app\src\main\res\mipmap-xhdpi" />
-      <recent name="D:\Desktop\TurisApp\app\src\main\res\drawable" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,11 +102,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4e1f276-c985-41ad-bc5e-d6ea9c6599d6" name="Default Changelist" comment="" />
-      <created>1588618415273</created>
+      <changelist id="4e00af1a-d416-44d9-9f3d-fbe05eb239c2" name="Default Changelist" comment="" />
+      <created>1591025232159</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588618415273</updated>
+      <updated>1591025232159</updated>
     </task>
     <servers />
   </component>
