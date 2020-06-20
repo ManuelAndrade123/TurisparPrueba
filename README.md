@@ -1,9 +1,12 @@
 # TurisparPrueba
-
+Primera Version:
 URL: de Video de utilizacion del aplicativo y su APK
-https://drive.google.com/drive/u/0/folders/1VGBH0SleQcshAsrckpA_q_witsv7k0GH
+https://drive.google.com/drive/u/0/folders/1VGBH0SleQcshAsrckpA_q_witsv7k0GH.
 
 
+
+Segunda Version:
+Proximamente..........
 
 Instalacion el Applicativo TurisApp
 1- Permitir la instalación de aplicaciones desde fuera de Play Store
