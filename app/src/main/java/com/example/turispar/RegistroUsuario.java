@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -29,7 +30,15 @@ public class RegistroUsuario extends AppCompatActivity {
 
     }
 
-    public  void Registrar(View view){
+    public  void iniciarSesion(View view){
+
+        Intent intent = new Intent(RegistroUsuario.this,MainActivity.class);
+        startActivity(intent);
+        finish();
+
+    }
+
+    public  void Registrar(View view) {
 
         Conexion admin = new Conexion(this, "datos", null, 1);
         final SQLiteDatabase acceso = admin.getWritableDatabase();
@@ -37,18 +46,33 @@ public class RegistroUsuario extends AppCompatActivity {
         final String temp_usuario = usuario.getText().toString();
         final String temp_contraseña = contraseña.getText().toString();
 
+
+        if (temp_usuario.isEmpty() || temp_contraseña.isEmpty()) {
+
+            Toast.makeText(this, "llene todos los campos", Toast.LENGTH_SHORT).show();
+
+        } else {
+
+        Cursor fila = acceso.rawQuery
+                ("select * from acceso where usuario= '" + temp_usuario + "'", null);
         ContentValues registrar = new ContentValues();
+        if (fila.moveToFirst()) {
 
-        registrar.put(Utilidades.CAMPO_USUARIO,temp_usuario);
-        registrar.put(Utilidades.CAMPO_CONTRASEÑA ,temp_contraseña);
+            Toast.makeText(this, "este usuario ya existe", Toast.LENGTH_SHORT).show();
+        } else {
+            registrar.put(Utilidades.CAMPO_USUARIO, temp_usuario);
+            registrar.put(Utilidades.CAMPO_CONTRASEÑA, temp_contraseña);
 
-        acceso.insert(Utilidades.TABLA_ACCESO,null,registrar);
-        acceso.close();
+            acceso.insert(Utilidades.TABLA_ACCESO, null, registrar);
+            acceso.close();
 
-        Toast.makeText(this, "usuario registrado correctamente", Toast.LENGTH_SHORT).show();
-        Intent intent =  new Intent(RegistroUsuario.this,MainActivity.class);
-        startActivity(intent);
-        finish();
+            Toast.makeText(this, "usuario registrado correctamente", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(RegistroUsuario.this, MainActivity.class);
+            startActivity(intent);
+            finish();
 
+
+        }
+    }
     }
 }

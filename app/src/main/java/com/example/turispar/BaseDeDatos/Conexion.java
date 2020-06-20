@@ -19,7 +19,6 @@ public class Conexion extends SQLiteOpenHelper {
 
         datos.execSQL(Utilidades.CREAR_TABLA_LUGAR);
 
-        datos.execSQL(Utilidades.CREAR_TABLA_CATEGORIA);
         datos.execSQL(Utilidades.CREAR_TABLA_ACCESO);
     }
 
@@ -27,7 +26,7 @@ public class Conexion extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase datos, int i, int i1) {
 
         datos.execSQL("DROP TABLE IF EXISTS " + Utilidades.TABLA_ACCESO);
-        datos.execSQL("DROP TABLE IF EXISTS " + Utilidades.TABLA_CATEGORIA);
+
         datos.execSQL("DROP TABLE IF EXISTS " + Utilidades.TABLA_LUGAR);
 
     }

@@ -1,19 +1,25 @@
 package com.example.turispar.Entidades;
 
-public class Lugar {
+import java.io.Serializable;
+
+public class Lugar implements Serializable {
 
     private String titulo;
     private String lugar;
     private String descripcion;
     private int foto;
     private boolean expanded;
+    private String usuario;
 
-    public boolean isExpanded() {
-        return expanded;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setExpanded(boolean expanded) {
-        this.expanded = expanded;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public Lugar() {
     }
 
     public Lugar(String titulo, String lugar, String descripcion, int foto) {
@@ -23,6 +29,20 @@ public class Lugar {
         this.foto = foto;
         this.expanded=false;
     }
+
+
+
+
+
+    public boolean isExpanded() {
+        return expanded;
+    }
+
+    public void setExpanded(boolean expanded) {
+        this.expanded = expanded;
+    }
+
+
 
     public String getTitulo() {
         return titulo;

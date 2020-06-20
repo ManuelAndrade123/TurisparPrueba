@@ -7,23 +7,45 @@
     android:background="@drawable/fondofinal"
     tools:context=".Bienvenida">
 
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="337dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/valledupar"
+        android:onClick="favoritos"
+        android:text="Favoritos"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.138" />
+
     <com.synnapps.carouselview.CarouselView
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
+        android:layout_marginTop="16dp"
         app:fillColor="#FFFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:pageColor="#00000000"
         app:radius="6dp"
         app:slideInterval="3000"
         app:strokeColor="#FF777777"
         app:strokeWidth="1dp" />
 
-
     <Button
         android:id="@+id/button4"
         android:layout_width="337dp"
         android:layout_height="103dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/valledupar"
         android:onClick="lugares"
         android:text="Lugares"
@@ -32,35 +54,43 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtbienvenidausuario" />
 
     <TextView
         android:id="@+id/txtbienvenidausuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
         android:text="usuario"
-        android:textColor="#F7090808"
+        android:textColor="#F7FF0101"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/carouselView" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="182dp"
-        android:layout_height="103dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        android:layout_width="229dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/carouselView"
-        app:srcCompat="@drawable/turis" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estealfin" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="67dp"
+        android:layout_height="53dp"
+        android:onClick="salir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/salir" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

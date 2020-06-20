@@ -24,7 +24,9 @@ public class AdaptadorCategoria extends RecyclerView.Adapter<AdaptadorCategoria.
     @NonNull
     @Override
     public ViewHolderCategoria onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.categoriaspersonalizadas,null,false);
+
+
+           View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.categoriaspersonalizadas,null,false);
 
         view.setOnClickListener(this);
         return new ViewHolderCategoria(view);

@@ -14,7 +14,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondofinal4">
 
             <TextView
                 android:id="@+id/tituloLugares"
@@ -23,9 +24,10 @@
                 android:background="#00D80C0C"
                 android:drawableLeft="@drawable/ic_expand_more_black_24dp"
                 android:text="Poporos"
-                android:textColor="#0C0C0C"
+                android:textColor="#FFFFFF"
                 android:textSize="30sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/expandible" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -34,7 +36,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
 
-                android:background="@drawable/fondofinal2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tituloLugares">
 
@@ -43,7 +44,6 @@
                     android:layout_width="392dp"
                     android:layout_height="256dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginTop="24dp"
                     android:layout_marginEnd="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
